@@ -29,7 +29,7 @@ header{
 
 .step{
   background-color: #FF9A4B;
-  font-color:white;
+  color:#fff;
   position: absolute;
   top:0;
   left: 0;
@@ -37,26 +37,23 @@ header{
 
 .image-1{
   background-image: url(img/flow01.png);
-  width: 280px;
   height: 150px;
   background-size: cover;
-  background-position: center; 
+  background-position: bottom; 
 }
 
 .image-2{
   background-image: url(img/flow02.png);
-  width: 280px;
   height: 150px;
   background-size: cover;
-  background-position: center; 
+  background-position: bottom; 
 }
 
 .image-3{
   background-image: url(img/flow03.png);
-  width: 280px;
   height: 150px;
   background-size: cover;
-  background-position: center; 
+  background-position: bottom; 
 }
 
 .title{
@@ -67,4 +64,31 @@ header{
 footer{
   background-color: #AAAAAA;
   height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  header{
+    width: 100%;
+  }
+  
+  main{
+    display: flex;
+  }
+  
+  .main-contents{
+    display: block;
+    width: 100%;
+  }
+  
+  .box{
+    width: 90%;
+  }
+  
+  .box:nth-child(2){
+    margin:20px 0;
+  }
+  
+  footer{
+    width: 100%;
+  }
 }
