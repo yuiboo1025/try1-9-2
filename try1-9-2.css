@@ -71,10 +71,6 @@ footer{
     width: 100%;
   }
   
-  main{
-    display: flex;
-  }
-  
   .main-contents{
     display: block;
     width: 100%;
@@ -82,10 +78,11 @@ footer{
   
   .box{
     width: 90%;
+    margin-left: 5%;
   }
   
   .box:nth-child(2){
-    margin:20px 0;
+    margin:20px auto;
   }
   
   footer{
